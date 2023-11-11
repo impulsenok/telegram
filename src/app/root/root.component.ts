@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
-import { HeaderLineComponent } from '../header-line/header-line.component';
-import { MainGridComponent } from '../main-grid/main-grid.component';
+import { HeaderLineComponent } from './component/header-line/header-line.component';
+import { MainGridComponent } from './component/main-grid/main-grid.component';
 
 @Component({
   selector: 'app-root',
