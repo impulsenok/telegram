@@ -1,0 +1,39 @@
+:host {
+  display: flex;
+  width: 100%;
+  background-color: var(--secondary-background-color);
+  text-align: center;
+  height: 2rem;
+  line-height: 2rem;
+  color: #555d69;
+}
+
+.actions {
+  padding-left: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+
+  .action {
+    cursor: pointer;
+
+    &::after {
+      content: "";
+      display: block;
+      width: 0.8rem;
+      height: 0.8rem;
+      border-radius: 0.4rem;
+      background-color: #e9675b;
+    }
+    &:nth-child(2)::after {
+      background-color: #f4bf4f;
+    }
+    &:nth-child(3)::after {
+      background-color: #5fc053;
+    }
+  }
+}
+.title {
+  flex: 1 0 auto;
+  font-weight: 700;
+}
