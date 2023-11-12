@@ -1,0 +1,28 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  height: 4rem;
+  flex-basis: 4rem;
+  border-bottom: 1px solid var(--main-border-color);
+  padding: 0.6rem;
+  gap: 1rem;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  color: var(--white-color);
+}
+
+input {
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  border: none;
+  outline: none;
+  background-color: var(--secondary-background-color);
+  caret-color: var(--white-color);
+  &::placeholder {
+    color: rgb(170, 184, 200);
+    text-align: center;
+  }
+}
