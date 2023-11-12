@@ -1,4 +1,4 @@
-<section>
-  <div class="chat-icon"></div>
-  <div class="chat-title">{{ chatItem.title }}</div>
-</section>
+<round-avatar [title]="chatItem.title"></round-avatar>
+<chat-item-message-preview
+  [chatTitle]="chatItem.title"
+></chat-item-message-preview>
