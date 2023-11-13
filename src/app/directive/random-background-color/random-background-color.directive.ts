@@ -14,10 +14,9 @@ export class RandomBackgroundColorDirective {
 
   private getColor(): string {
     const letters = '0123456789ABCDEF';
-    let result = '000000';
     return (
       '#' +
-      result
+      '000000'
         .split('')
         .map((e) => letters[Math.floor(Math.random() * 16)])
         .join('')
