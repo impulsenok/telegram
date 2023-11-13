@@ -13,6 +13,6 @@ export class FirstLettersPipe implements PipeTransform {
   }
 
   private getFirstLetter(str: string): string {
-    return str.split('')[0].toUpperCase();
+    return str.trim().split('')[0].toUpperCase();
   }
 }
